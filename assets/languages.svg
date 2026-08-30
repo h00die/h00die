@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="410" height="200" rx="6" fill="#0d1117" />
+<text x="20" y="34" fill="#6BF178" font-size="15" font-weight="bold">top languages (by repo)</text>
+<text x="20" y="62" fill="#e6edf3" font-size="12">Python</text>
+<rect x="130" y="53" width="200" height="9" rx="4" fill="#21262d" />
+<rect x="130" y="53" width="174" height="9" rx="4" fill="#3572A0" />
+<text x="390" y="62" fill="#8b949e" font-size="12" text-anchor="end">87%</text>
+<text x="20" y="90" fill="#e6edf3" font-size="12">JavaScript</text>
+<rect x="130" y="81" width="200" height="9" rx="4" fill="#21262d" />
+<rect x="130" y="81" width="14" height="9" rx="4" fill="#f1e05a" />
+<text x="390" y="90" fill="#8b949e" font-size="12" text-anchor="end">7%</text>
+<text x="20" y="118" fill="#e6edf3" font-size="12">Shell</text>
+<rect x="130" y="109" width="200" height="9" rx="4" fill="#21262d" />
+<rect x="130" y="109" width="14" height="9" rx="4" fill="#89e051" />
+<text x="390" y="118" fill="#8b949e" font-size="12" text-anchor="end">7%</text>
+</svg>

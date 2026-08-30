@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="200" viewBox="0 0 410 200" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="410" height="200" rx="6" fill="#0d1117" />
+<text x="20" y="34" fill="#6BF178" font-size="15" font-weight="bold">h00die&#39;s github stats</text>
+<text x="20" y="64" fill="#8b949e" font-size="12">followers</text>
+<text x="390" y="64" fill="#e6edf3" font-size="14" font-weight="bold" text-anchor="end">197</text>
+<text x="20" y="98" fill="#8b949e" font-size="12">stars earned</text>
+<text x="390" y="98" fill="#e6edf3" font-size="14" font-weight="bold" text-anchor="end">30</text>
+<text x="20" y="132" fill="#8b949e" font-size="12">public repos</text>
+<text x="390" y="132" fill="#e6edf3" font-size="14" font-weight="bold" text-anchor="end">37</text>
+<text x="20" y="166" fill="#8b949e" font-size="12">contributions (1y)</text>
+<text x="390" y="166" fill="#e6edf3" font-size="14" font-weight="bold" text-anchor="end">551</text>
+<text x="20" y="192" fill="#484f58" font-size="9" font-style="italic">self-generated daily by my own action - no third-party card service</text>
+</svg>

@@ -88,24 +88,69 @@ more in the oven as disclosures clear.
 ## :bar_chart: the numbers
 
 <p>
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=h00die&show_icons=true&include_all_commits=true&theme=chartreuse-dark&hide_border=true" alt="github stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=h00die&layout=compact&langs_count=8&theme=chartreuse-dark&hide_border=true" alt="top languages" />
+<img height="200" src="assets/stats.svg" alt="github stats" />
+<img height="200" src="assets/languages.svg" alt="top languages" />
 </p>
 
 <img width="70%" src="https://streak-stats.demolab.com?user=h00die&hide_border=true&background=0D1117&ring=6BF178&fire=FFD700&currStreakLabel=6BF178&sideNums=8B949E&sideLabels=8B949E&currStreakNum=FFFFFF&dates=8B949E" alt="streak stats" />
 
 ---
 
-## :snake: the snake
+## :handshake: upstream contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/h00die/h00die/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/h00die/h00die/output/github-contribution-grid-snake.svg" />
-  <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/h00die/h00die/output/github-contribution-grid-snake.svg" />
-</picture>
+full list of external repos (not mine) that i've sent PRs to:
 
-<!-- the snake is generated daily by .github/workflows/snake.yml.
-     after enabling Actions, run "generate snake animation" once from the Actions tab to summon it. -->
+<!-- prs:start -->
+**618 PRs** to **43 external repos** (repos i don't own)
+
+| repo | PRs | merged |
+| --- | --- | --- |
+| [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) | 530 | 487 |
+| [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 15 | 15 |
+| [HackTricks-wiki/hacktricks-cloud](https://github.com/HackTricks-wiki/hacktricks-cloud) | 9 | 8 |
+| [ndepthsecurity/EtherJack](https://github.com/ndepthsecurity/EtherJack) | 6 | 5 |
+| [jojoeb16/Python_StockResearch](https://github.com/jojoeb16/Python_StockResearch) | 5 | 5 |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 3 | 2 |
+| [UberGuidoZ/Flipper](https://github.com/UberGuidoZ/Flipper) | 3 | 3 |
+| [flakey-biscuits/metasploit-framework](https://github.com/flakey-biscuits/metasploit-framework) | 3 | 3 |
+| [madefourit/metasploit-framework](https://github.com/madefourit/metasploit-framework) | 3 | 3 |
+| [nmap/nmap](https://github.com/nmap/nmap) | 3 | 0 |
+| [timwr/metasploit-framework](https://github.com/timwr/metasploit-framework) | 3 | 3 |
+| [Lucaslhm/Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) | 2 | 2 |
+| [hkerma/metasploit-framework](https://github.com/hkerma/metasploit-framework) | 2 | 2 |
+| [rapid7/metasploit-payloads](https://github.com/rapid7/metasploit-payloads) | 2 | 2 |
+| [6a6f656c/metasploit-framework](https://github.com/6a6f656c/metasploit-framework) | 1 | 1 |
+| [HavocFramework/Havoc](https://github.com/HavocFramework/Havoc) | 1 | 1 |
+| [HynekPetrak/metasploit-framework](https://github.com/HynekPetrak/metasploit-framework) | 1 | 1 |
+| [JakeSwiz/WatchFlock](https://github.com/JakeSwiz/WatchFlock) | 1 | 0 |
+| [Jonathan-f8/Cyber_Saturday_Website](https://github.com/Jonathan-f8/Cyber_Saturday_Website) | 1 | 0 |
+| [Professor-plum/metasploit-framework](https://github.com/Professor-plum/metasploit-framework) | 1 | 1 |
+| [ReconGrunt/FlipDeFlock](https://github.com/ReconGrunt/FlipDeFlock) | 1 | 1 |
+| [RogueMaster/flipperzero-firmware-wPlugins](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) | 1 | 0 |
+| [UberGuidoZ/Flipper-IRDB](https://github.com/UberGuidoZ/Flipper-IRDB) | 1 | 1 |
+| [egypt/metasploit-framework](https://github.com/egypt/metasploit-framework) | 1 | 1 |
+| [flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) | 1 | 1 |
+| [h4ng3r/metasploit-framework](https://github.com/h4ng3r/metasploit-framework) | 1 | 1 |
+| [hdm/metasploit-framework](https://github.com/hdm/metasploit-framework) | 1 | 1 |
+| [hotnops/AWSRoleJuggler](https://github.com/hotnops/AWSRoleJuggler) | 1 | 0 |
+| [mdisec/metasploit-framework](https://github.com/mdisec/metasploit-framework) | 1 | 1 |
+| [n00bhaxor/metasploit-framework](https://github.com/n00bhaxor/metasploit-framework) | 1 | 1 |
+| [namaenonaimumei/metasploit-framework](https://github.com/namaenonaimumei/metasploit-framework) | 1 | 1 |
+| [npm-cesium137-io/metasploit-framework](https://github.com/npm-cesium137-io/metasploit-framework) | 1 | 0 |
+| [nsa/metasploit-framework](https://github.com/nsa/metasploit-framework) | 1 | 1 |
+| [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | 1 | 0 |
+| [rapid7/metasploit-credential](https://github.com/rapid7/metasploit-credential) | 1 | 1 |
+| [rapid7/rex-exploitation](https://github.com/rapid7/rex-exploitation) | 1 | 0 |
+| [red0xff/metasploit-framework](https://github.com/red0xff/metasploit-framework) | 1 | 1 |
+| [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 1 | 1 |
+| [snyk/leaky-vessels-dynamic-detector](https://github.com/snyk/leaky-vessels-dynamic-detector) | 1 | 1 |
+| [snyk/leaky-vessels-static-detector](https://github.com/snyk/leaky-vessels-static-detector) | 1 | 1 |
+| [synthsec/metasploit-framework](https://github.com/synthsec/metasploit-framework) | 1 | 0 |
+| [tenable/poc](https://github.com/tenable/poc) | 1 | 1 |
+| [wvu/metasploit-framework](https://github.com/wvu/metasploit-framework) | 1 | 1 |
+<!-- prs:end -->
+
+<!-- the list above + the stat cards regenerate daily via .github/workflows/stats.yml - no third-party card service -->
 
 ---
 
