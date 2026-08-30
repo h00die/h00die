@@ -83,6 +83,10 @@ more in the oven as disclosures clear.
 
 full list of external repos (not mine) that i've sent PRs to:
 
+*note: metasploit module work usually starts as collaboration in friends' forks of
+metasploit-framework before it lands upstream - those collab PRs aren't listed here.
+only [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) counts.*
+
 <!-- prs:start -->
 **593 PRs** to **25 external repos** (repos i don't own)
 
