@@ -68,23 +68,6 @@ more in the oven as disclosures clear.
 
 ---
 
-## :toolbox: toolbox
-
-<img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white" alt="python" />
-<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="ruby" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="bash" />
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="metasploit" />
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="burp" />
-<img src="https://img.shields.io/badge/Nmap-204F77?style=for-the-badge&logo=nmap&logoColor=white" alt="nmap" />
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="wireshark" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker" />
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="kali" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws" />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="gcp" />
-<img src="https://img.shields.io/badge/Flipper_Zero-FF6600?style=for-the-badge&logo=flipperzero&logoColor=white" alt="flipper" />
-
----
-
 ## :bar_chart: the numbers
 
 <p>
@@ -101,7 +84,7 @@ more in the oven as disclosures clear.
 full list of external repos (not mine) that i've sent PRs to:
 
 <!-- prs:start -->
-**618 PRs** to **43 external repos** (repos i don't own)
+**593 PRs** to **25 external repos** (repos i don't own)
 
 | repo | PRs | merged |
 | --- | --- | --- |
@@ -112,42 +95,24 @@ full list of external repos (not mine) that i've sent PRs to:
 | [jojoeb16/Python_StockResearch](https://github.com/jojoeb16/Python_StockResearch) | 5 | 5 |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | 3 | 2 |
 | [UberGuidoZ/Flipper](https://github.com/UberGuidoZ/Flipper) | 3 | 3 |
-| [flakey-biscuits/metasploit-framework](https://github.com/flakey-biscuits/metasploit-framework) | 3 | 3 |
-| [madefourit/metasploit-framework](https://github.com/madefourit/metasploit-framework) | 3 | 3 |
 | [nmap/nmap](https://github.com/nmap/nmap) | 3 | 0 |
-| [timwr/metasploit-framework](https://github.com/timwr/metasploit-framework) | 3 | 3 |
 | [Lucaslhm/Flipper-IRDB](https://github.com/Lucaslhm/Flipper-IRDB) | 2 | 2 |
-| [hkerma/metasploit-framework](https://github.com/hkerma/metasploit-framework) | 2 | 2 |
 | [rapid7/metasploit-payloads](https://github.com/rapid7/metasploit-payloads) | 2 | 2 |
-| [6a6f656c/metasploit-framework](https://github.com/6a6f656c/metasploit-framework) | 1 | 1 |
 | [HavocFramework/Havoc](https://github.com/HavocFramework/Havoc) | 1 | 1 |
-| [HynekPetrak/metasploit-framework](https://github.com/HynekPetrak/metasploit-framework) | 1 | 1 |
 | [JakeSwiz/WatchFlock](https://github.com/JakeSwiz/WatchFlock) | 1 | 0 |
 | [Jonathan-f8/Cyber_Saturday_Website](https://github.com/Jonathan-f8/Cyber_Saturday_Website) | 1 | 0 |
-| [Professor-plum/metasploit-framework](https://github.com/Professor-plum/metasploit-framework) | 1 | 1 |
 | [ReconGrunt/FlipDeFlock](https://github.com/ReconGrunt/FlipDeFlock) | 1 | 1 |
 | [RogueMaster/flipperzero-firmware-wPlugins](https://github.com/RogueMaster/flipperzero-firmware-wPlugins) | 1 | 0 |
 | [UberGuidoZ/Flipper-IRDB](https://github.com/UberGuidoZ/Flipper-IRDB) | 1 | 1 |
-| [egypt/metasploit-framework](https://github.com/egypt/metasploit-framework) | 1 | 1 |
 | [flipperdevices/flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) | 1 | 1 |
-| [h4ng3r/metasploit-framework](https://github.com/h4ng3r/metasploit-framework) | 1 | 1 |
-| [hdm/metasploit-framework](https://github.com/hdm/metasploit-framework) | 1 | 1 |
 | [hotnops/AWSRoleJuggler](https://github.com/hotnops/AWSRoleJuggler) | 1 | 0 |
-| [mdisec/metasploit-framework](https://github.com/mdisec/metasploit-framework) | 1 | 1 |
-| [n00bhaxor/metasploit-framework](https://github.com/n00bhaxor/metasploit-framework) | 1 | 1 |
-| [namaenonaimumei/metasploit-framework](https://github.com/namaenonaimumei/metasploit-framework) | 1 | 1 |
-| [npm-cesium137-io/metasploit-framework](https://github.com/npm-cesium137-io/metasploit-framework) | 1 | 0 |
-| [nsa/metasploit-framework](https://github.com/nsa/metasploit-framework) | 1 | 1 |
 | [peass-ng/PEASS-ng](https://github.com/peass-ng/PEASS-ng) | 1 | 0 |
 | [rapid7/metasploit-credential](https://github.com/rapid7/metasploit-credential) | 1 | 1 |
 | [rapid7/rex-exploitation](https://github.com/rapid7/rex-exploitation) | 1 | 0 |
-| [red0xff/metasploit-framework](https://github.com/red0xff/metasploit-framework) | 1 | 1 |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 1 | 1 |
 | [snyk/leaky-vessels-dynamic-detector](https://github.com/snyk/leaky-vessels-dynamic-detector) | 1 | 1 |
 | [snyk/leaky-vessels-static-detector](https://github.com/snyk/leaky-vessels-static-detector) | 1 | 1 |
-| [synthsec/metasploit-framework](https://github.com/synthsec/metasploit-framework) | 1 | 0 |
 | [tenable/poc](https://github.com/tenable/poc) | 1 | 1 |
-| [wvu/metasploit-framework](https://github.com/wvu/metasploit-framework) | 1 | 1 |
 <!-- prs:end -->
 
 <!-- the list above + the stat cards regenerate daily via .github/workflows/stats.yml - no third-party card service -->

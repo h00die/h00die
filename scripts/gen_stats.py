@@ -118,7 +118,9 @@ def svg_wrap(w, h, body):
 
 
 def fetch_prs():
-    """all PRs authored by USER in repos they don't own. search API caps at 1000 results."""
+    """all PRs authored by USER in repos they don't own. search API caps at 1000 results.
+    friends' metasploit-framework forks are PR staging grounds, not real upstreams - only
+    rapid7's counts."""
     q = f"author:{USER}+type:pr+-user:{USER}"
     items, page = [], 1
     while page <= 10:
@@ -127,18 +129,20 @@ def fetch_prs():
         if len(items) >= batch.get("total_count", 0) or not batch.get("items"):
             break
         page += 1
-    total = gh(f"search/issues?q={q}&per_page=1").get("total_count", 0)
     repos = {}
     for it in items:
         repo = it["repository_url"].split("/repos/")[-1]
+        if repo.endswith("/metasploit-framework") and repo != "rapid7/metasploit-framework":
+            continue
         r = repos.setdefault(repo, {"prs": 0, "merged": 0})
         r["prs"] += 1
         if (it.get("pull_request") or {}).get("merged_at"):
             r["merged"] += 1
-    return repos, total, len(items)
+    return repos, len(items)
 
 
-def render_prs_md(repos, total, fetched):
+def render_prs_md(repos, fetched):
+    total = sum(r["prs"] for r in repos.values())
     lines = [f"**{total} PRs** to **{len(repos)} external repos** (repos i don't own)\n"]
     lines.append("| repo | PRs | merged |")
     lines.append("| --- | --- | --- |")
