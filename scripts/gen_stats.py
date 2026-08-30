@@ -119,8 +119,8 @@ def svg_wrap(w, h, body):
 
 def fetch_prs():
     """all PRs authored by USER in repos they don't own. search API caps at 1000 results.
-    friends' metasploit-framework forks are PR staging grounds, not real upstreams - only
-    rapid7's counts."""
+    friends' metasploit-framework forks are module collab staging grounds, not real
+    upstreams - they get their own group. only rapid7's is upstream."""
     q = f"author:{USER}+type:pr+-user:{USER}"
     items, page = [], 1
     while page <= 10:
@@ -129,26 +129,44 @@ def fetch_prs():
         if len(items) >= batch.get("total_count", 0) or not batch.get("items"):
             break
         page += 1
-    repos = {}
+
+    def is_collab(repo):
+        return repo.endswith("/metasploit-framework") and repo != "rapid7/metasploit-framework"
+
+    upstream, collabs = {}, {}
     for it in items:
         repo = it["repository_url"].split("/repos/")[-1]
-        if repo.endswith("/metasploit-framework") and repo != "rapid7/metasploit-framework":
-            continue
+        repos = collabs if is_collab(repo) else upstream
         r = repos.setdefault(repo, {"prs": 0, "merged": 0})
         r["prs"] += 1
         if (it.get("pull_request") or {}).get("merged_at"):
             r["merged"] += 1
-    return repos, len(items)
+    return upstream, collabs, len(items)
 
 
-def render_prs_md(repos, fetched):
-    total = sum(r["prs"] for r in repos.values())
-    lines = [f"**{total} PRs** to **{len(repos)} external repos** (repos i don't own)\n"]
-    lines.append("| repo | PRs | merged |")
-    lines.append("| --- | --- | --- |")
+def prs_table(repos):
+    lines = ["| repo | PRs | merged |", "| --- | --- | --- |"]
     for repo, r in sorted(repos.items(), key=lambda kv: (-kv[1]["prs"], kv[0])):
         lines.append(f"| [{repo}](https://github.com/{repo}) | {r['prs']} | {r['merged']} |")
-    if total > fetched:
+    return lines
+
+
+def render_prs_md(upstream, collabs, fetched):
+    up_total = sum(r["prs"] for r in upstream.values())
+    co_total = sum(r["prs"] for r in collabs.values())
+    lines = [
+        f"**{up_total} upstream PRs** to **{len(upstream)} external repos**"
+        f" (repos i don't own), plus **{co_total} collab PRs** in friends' forks",
+        "",
+        *prs_table(upstream),
+        "",
+        "### collaborations",
+        "",
+        "metasploit module work usually starts in friends' forks before it lands upstream:",
+        "",
+        *prs_table(collabs),
+    ]
+    if up_total + co_total > fetched:
         lines.append(f"\n(github's search API caps at 1000 results; showing {fetched})")
     return "\n".join(lines)
 

@@ -83,12 +83,8 @@ more in the oven as disclosures clear.
 
 full list of external repos (not mine) that i've sent PRs to:
 
-*note: metasploit module work usually starts as collaboration in friends' forks of
-metasploit-framework before it lands upstream - those collab PRs aren't listed here.
-only [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework) counts.*
-
 <!-- prs:start -->
-**593 PRs** to **25 external repos** (repos i don't own)
+**593 upstream PRs** to **25 external repos** (repos i don't own), plus **25 collab PRs** in friends' forks
 
 | repo | PRs | merged |
 | --- | --- | --- |
@@ -117,6 +113,31 @@ only [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framewor
 | [snyk/leaky-vessels-dynamic-detector](https://github.com/snyk/leaky-vessels-dynamic-detector) | 1 | 1 |
 | [snyk/leaky-vessels-static-detector](https://github.com/snyk/leaky-vessels-static-detector) | 1 | 1 |
 | [tenable/poc](https://github.com/tenable/poc) | 1 | 1 |
+
+### collaborations
+
+metasploit module work usually starts in friends' forks before it lands upstream:
+
+| repo | PRs | merged |
+| --- | --- | --- |
+| [flakey-biscuits/metasploit-framework](https://github.com/flakey-biscuits/metasploit-framework) | 3 | 3 |
+| [madefourit/metasploit-framework](https://github.com/madefourit/metasploit-framework) | 3 | 3 |
+| [timwr/metasploit-framework](https://github.com/timwr/metasploit-framework) | 3 | 3 |
+| [hkerma/metasploit-framework](https://github.com/hkerma/metasploit-framework) | 2 | 2 |
+| [6a6f656c/metasploit-framework](https://github.com/6a6f656c/metasploit-framework) | 1 | 1 |
+| [HynekPetrak/metasploit-framework](https://github.com/HynekPetrak/metasploit-framework) | 1 | 1 |
+| [Professor-plum/metasploit-framework](https://github.com/Professor-plum/metasploit-framework) | 1 | 1 |
+| [egypt/metasploit-framework](https://github.com/egypt/metasploit-framework) | 1 | 1 |
+| [h4ng3r/metasploit-framework](https://github.com/h4ng3r/metasploit-framework) | 1 | 1 |
+| [hdm/metasploit-framework](https://github.com/hdm/metasploit-framework) | 1 | 1 |
+| [mdisec/metasploit-framework](https://github.com/mdisec/metasploit-framework) | 1 | 1 |
+| [n00bhaxor/metasploit-framework](https://github.com/n00bhaxor/metasploit-framework) | 1 | 1 |
+| [namaenonaimumei/metasploit-framework](https://github.com/namaenonaimumei/metasploit-framework) | 1 | 1 |
+| [npm-cesium137-io/metasploit-framework](https://github.com/npm-cesium137-io/metasploit-framework) | 1 | 0 |
+| [nsa/metasploit-framework](https://github.com/nsa/metasploit-framework) | 1 | 1 |
+| [red0xff/metasploit-framework](https://github.com/red0xff/metasploit-framework) | 1 | 1 |
+| [synthsec/metasploit-framework](https://github.com/synthsec/metasploit-framework) | 1 | 0 |
+| [wvu/metasploit-framework](https://github.com/wvu/metasploit-framework) | 1 | 1 |
 <!-- prs:end -->
 
 <!-- the list above + the stat cards regenerate daily via .github/workflows/stats.yml - no third-party card service -->
