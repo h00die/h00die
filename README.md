@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=900&color=6BF178&random=false&width=650&lines=hi%2C+i%27m+h00die%3Bi+audit+the+tools+that+audit+you%3Bprofessional+vendor+ghost-hunter%3B11+disclosures+tracked%2C+still+counting" alt="hi, i'm h00die" width="650" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=900&color=6BF178&random=false&width=650&lines=hi%2C+i%27m+h00die" alt="hi, i'm h00die" width="650" />
 
 <br/>
 
@@ -30,7 +30,7 @@ campaigns against whoever ships them.
 
 > score so far: **2 fixed** (1 with a bounty :trophy:) - **1 partially fixed** - **4 ghosted** :ghost: - **3 refused** - **1 pending public writeup**
 >
-> one of these is feeding a potential Black Hat Europe talk.
+> these are feeding a security conference talk.
 
 | # | target | contacted | outcome | notes |
 | --- | -------- | ----------- | --------- | ------- |
