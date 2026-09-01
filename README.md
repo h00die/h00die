@@ -50,7 +50,7 @@ campaigns against whoever ships them.
 
 | vendor | channel | submitted | status |
 | -------- | --------- | ----------- | -------- |
-| Tenable | HackerOne | Aug 26 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Tenable | HackerOne 3971365 | Aug 26 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
 | Rapid7 | support ticket #142316 | Aug 27 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
 | Greenbone Security | direct email | Aug 29 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
 
