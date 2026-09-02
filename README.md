@@ -66,6 +66,26 @@ campaigns against whoever ships them.
 
 more in the oven as disclosures clear.
 
+## :boom: CVEs Discovered
+
+| CVE | Info |
+| ----- | ----- |
+| [CVE-2009-4753](https://nvd.nist.gov/vuln/detail/CVE-2009-4753) | Addonics NAS Adapter NASU2FW41 FTP based DoS |
+| [CVE-2017-6526](https://nvd.nist.gov/vuln/detail/CVE-2017-6526) | dnaLIMS unauthenticated RCE|
+| [CVE-2017-6527](https://nvd.nist.gov/vuln/detail/CVE-2017-6527) | dnaLIMS directory traversal |
+| [CVE-2017-6528](https://nvd.nist.gov/vuln/detail/CVE-2017-6528) | dnaLIMS plaintext password storage |
+| [CVE-2017-6529](https://nvd.nist.gov/vuln/detail/CVE-2017-6529) | dnaLIMS session hijacking |
+| [CVE-2024-48530](https://nvd.nist.gov/vuln/detail/CVE-2024-48530) | eSoft Planner DoS |
+| [CVE-2024-48531](https://nvd.nist.gov/vuln/detail/CVE-2024-48531) | eSoft Planner reflected XSS |
+| [CVE-2024-48533](https://nvd.nist.gov/vuln/detail/CVE-2024-48533) | eSoft Planner account enumeration |
+| [CVE-2024-48534](https://nvd.nist.gov/vuln/detail/CVE-2024-48534) | eSoft Planner reflected XSS |
+| [CVE-2024-48535](https://nvd.nist.gov/vuln/detail/CVE-2024-48535) | eSoft Planner stored XSS |
+| [CVE-2024-48536](https://nvd.nist.gov/vuln/detail/CVE-2024-48536) | eSoft Planner incorrect access control |
+
+## :boom: Exploit-DB
+
+https://www.exploit-db.com/?author=1611
+
 ---
 
 ## :bar_chart: the numbers
