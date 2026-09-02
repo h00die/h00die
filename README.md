@@ -70,7 +70,12 @@ more in the oven as disclosures clear.
 
 | CVE | Info |
 | ----- | ----- |
+| NOCVE-2009 | Addonics NAS Adapter NASU2FW41 bts.cgi DoS |
+| NOCVE-2009 | Addonics NAS Adapter NASU2FW41 nas.cgi DoS |
 | [CVE-2009-4753](https://nvd.nist.gov/vuln/detail/CVE-2009-4753) | Addonics NAS Adapter NASU2FW41 FTP based DoS |
+| NOCVE-2009 | HP Deskjet 6840 firmware XF1M131A reflected XSS |
+| NOCVE-2010 | CiviCRM 3.1 < Beta 5 - Multiple Cross-Site Scripting Vulnerabilities |
+| NOCVE-2010 | dotProject 2.1.3 XSS / Improper Permissions |
 | NOCVE-2017 June, 01 | CERT VU#118167. |
 | [CVE-2017-6526](https://nvd.nist.gov/vuln/detail/CVE-2017-6526) | dnaLIMS unauthenticated RCE|
 | [CVE-2017-6527](https://nvd.nist.gov/vuln/detail/CVE-2017-6527) | dnaLIMS directory traversal |
