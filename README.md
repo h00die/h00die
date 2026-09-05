@@ -77,7 +77,7 @@ more in the oven as disclosures clear.
 | NOCVE-2009 | HP Deskjet 6840 firmware XF1M131A reflected XSS |
 | NOCVE-2010 | CiviCRM 3.1 < Beta 5 - Multiple Cross-Site Scripting Vulnerabilities |
 | NOCVE-2010 | dotProject 2.1.3 XSS / Improper Permissions |
-| NOCVE-2017 June, 01 | CERT VU#118167. |
+| NOCVE-2017 June, 01 | Torch router authentication bypass, clear text credentials, and more. CERT VU#118167. |
 | [CVE-2017-6526](https://nvd.nist.gov/vuln/detail/CVE-2017-6526) | dnaLIMS unauthenticated RCE|
 | [CVE-2017-6527](https://nvd.nist.gov/vuln/detail/CVE-2017-6527) | dnaLIMS directory traversal |
 | [CVE-2017-6528](https://nvd.nist.gov/vuln/detail/CVE-2017-6528) | dnaLIMS plaintext password storage |
