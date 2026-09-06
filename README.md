@@ -50,10 +50,12 @@ campaigns against whoever ships them.
 
 | vendor | channel | submitted | status |
 | -------- | --------- | ----------- | -------- |
-| Tenable | HackerOne 3971365 | Aug 26 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Rapid7 | support ticket #142316 | Aug 27 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Tenable | HackerOne 3971365 | Aug 26 | ![under_review](https://img.shields.io/badge/-UNDER_REVIEW-blue) |
+| Rapid7 | support ticket #142316 | Aug 27 | ![acknowledged](https://img.shields.io/badge/-ACKNOWLEDGED-blue) |
 | Greenbone Security | direct email | Aug 29 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Plex | direct email | Sep 5 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Plex (DoS) | direct email | Sep 5 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Plex (SSRF) | direct email | Sep 5 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Plex (Auth Bypass) | direct email | Sep 5 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
 
 ---
 
