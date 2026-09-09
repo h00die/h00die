@@ -48,16 +48,16 @@ campaigns against whoever ships them.
 
 ### fresh submissions
 
-| vendor | cve | channel | submitted | status |
-| -------- | -------- | --------- | ----------- | -------- |
-| Tenable | | HackerOne 3971365 | Aug 26 | ![sent_to_tenable](https://img.shields.io/badge/-SENT_TO_TENABLE-blue) |
-| Rapid7 | CVE-2026-87690 | support ticket #142316 | Aug 27 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Greenbone Security (bypass) | | direct email | Aug 29 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Greenbone Security (SQLi) | | direct email | Aug 29 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Greenbone Security (Confi Change) | | direct email | Aug 29 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Plex (DoS) | | direct email | Sep 5 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Plex (SSRF) | | direct email | Sep 5 | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Plex (Auth Bypass) | | direct email | Sep 5 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| submitted | type | vendor | cve | channel | status |
+| -------- | -------- | -------- | --------- | ----------- | -------- |
+| Aug 26 | file read | Tenable | | HackerOne 3971365 | ![sent_to_tenable](https://img.shields.io/badge/-SENT_TO_TENABLE-blue) |
+| Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| Aug 29 | bypass | Greenbone Security | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| Aug 29 | SQLi | Greenbone Security | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| Aug 29 | Confi Change | Greenbone Security | | direct email | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Sep 5 | DoS | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| Sep 5 | SSRF | Plex | | direct email | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
+| Sep 5 | Auth Bypass | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
 
 ---
 
