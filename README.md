@@ -49,7 +49,7 @@ campaigns against whoever ships them.
 ### fresh submissions
 
 | vendor | cve | channel | submitted | status |
-| -------- | --------- | ----------- | -------- |
+| -------- | -------- | --------- | ----------- | -------- |
 | Tenable | | HackerOne 3971365 | Aug 26 | ![sent_to_tenable](https://img.shields.io/badge/-SENT_TO_TENABLE-blue) |
 | Rapid7 | CVE-2026-87690 | support ticket #142316 | Aug 27 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
 | Greenbone Security (bypass) | | direct email | Aug 29 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
