@@ -58,6 +58,7 @@ campaigns against whoever ships them.
 | Sep 5 | DoS | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
 | Sep 5 | SSRF | Plex | | direct email | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
 | Sep 5 | Auth Bypass | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
+| Sep 14 | HTMLi | Tenable | | HackerOne 4029330 | ![pending](https://img.shields.io/badge/-PENDING-blue) |
 
 ---
 
