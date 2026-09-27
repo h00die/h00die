@@ -48,19 +48,24 @@ campaigns against whoever ships them.
 
 ### fresh submissions
 
-| submitted | type | vendor | cve | channel | status |
+<!-- progress:start -->
+> the pipeline: submitted -> acknowledged -> verified -> fixed -> public -> bounty.
+> chips fill left to right as stages land - outline means not there yet.
+
+| Submitted | Type | Vendor | CVE | Channel | Status |
 | -------- | -------- | -------- | --------- | ----------- | -------- |
-| Aug 26 | file read | Tenable | | HackerOne 3971365 | ![sent_to_tenable](https://img.shields.io/badge/-SENT_TO_TENABLE-blue) |
-| Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Aug 29 | bypass | Greenbone Security | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Aug 29 | SQLi | Greenbone Security | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Aug 29 | Confi Change | Greenbone Security | | direct email | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Sep 5 | DoS | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Sep 5 | SSRF | Plex | | direct email | ![submitted](https://img.shields.io/badge/-SUBMITTED-blue) |
-| Sep 5 | Auth Bypass | Plex | | direct email | ![confirmed](https://img.shields.io/badge/-CONFIRMED-blue) |
-| Sep 14 | HTMLi | Tenable | | HackerOne 4029330 | ![pending](https://img.shields.io/badge/-PENDING-blue) |
-| Sep 16 |  | Tenable | | HackerOne 4034759 | ![pending](https://img.shields.io/badge/-PENDING-blue) |
-| Sep 17 | DoS | sliver | | github GHSA-2p9c-ffmm-9248 , VulnCheck CVE requested b16a146a-c209-4ea5-92aa-2d351450ef83 | ![triage](https://img.shields.io/badge/-TRIAGE-blue) |
+| Aug 26 | file read | Tenable |  | HackerOne 3971365 | ![verified](assets/progress_tenable-3971365.svg) |
+| Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![fixed](assets/progress_rapid7-rce.svg) |
+| Aug 29 | bypass | Greenbone Security |  | direct email | ![verified](assets/progress_greenbone-bypass.svg) |
+| Aug 29 | SQLi | Greenbone Security |  | direct email | ![verified](assets/progress_greenbone-sqli.svg) |
+| Aug 29 | Confi Change | Greenbone Security |  | direct email | ![verified](assets/progress_greenbone-confi.svg) |
+| Sep 5 | DoS | Plex |  | direct email | ![verified](assets/progress_plex-dos.svg) |
+| Sep 5 | SSRF | Plex |  | direct email | ![fixed](assets/progress_plex-ssrf.svg) |
+| Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
+| Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![verified](assets/progress_tenable-4029330.svg) |
+| Sep 16 |  | Tenable |  | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
+| Sep 17 | DoS | sliver |  | github GHSA-2p9c-ffmm-9248 , VulnCheck CVE requested b16a146a-c209-4ea5-92aa-2d351450ef83 | ![acknowledged](assets/progress_sliver-dos.svg) |
+<!-- progress:end -->
 
 ---
 
