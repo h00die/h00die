@@ -4,7 +4,7 @@
 
 <br/>
 
-![disclosures](https://img.shields.io/badge/disclosures-11_tracked-blue?style=flat-square)
+![disclosures](https://img.shields.io/badge/disclosures-12_tracked-blue?style=flat-square)
 ![ghosted](https://img.shields.io/badge/vendors_ghosted-4-inactive?style=flat-square)
 ![bounties](https://img.shields.io/badge/bounties-1_paid-FFD700?style=flat-square)
 
@@ -28,7 +28,7 @@ campaigns against whoever ships them.
 
 ## :satellite: currently tracked disclosures
 
-> score so far: **2 fixed** (1 with a bounty :trophy:) - **1 partially fixed** - **4 ghosted** :ghost: - **3 refused** - **1 pending public writeup**
+> score so far: **2 fixed** (1 with a bounty :trophy:) - **2 partially fixed** - **4 ghosted** :ghost: - **3 refused** - **1 pending public writeup**
 >
 > these are feeding a security conference talk.
 
@@ -45,6 +45,7 @@ campaigns against whoever ships them.
 | 9 | REDACTED9 | Jul 8 | ![refused](https://img.shields.io/badge/-REFUSED-red) | tickets marked resolved, not interested |
 | 10 | REDACTED10 | Jun 27, 29, Jul 2, 10 | ![refused](https://img.shields.io/badge/-REFUSED-red) | tickets closed as resolved/spam |
 | 11 | REDACTED11 | Jul 24 | ![bounty](https://img.shields.io/badge/-FIXED_+_BOUNTY_PAID-FFD700) | fixed, bounty paid |
+| 12 | REDACTED12 | Sep 27 | ![partial](https://img.shields.io/badge/-PARTIAL_FIX-yellow) | hostile-input audit of a C2 framework; DoS crash-loop finding fixed same-day by the author (verified against the fix commit), more findings in the pipeline |
 
 ### fresh submissions
 
@@ -63,8 +64,9 @@ campaigns against whoever ships them.
 | Sep 5 | SSRF | Plex |  | direct email | ![fixed](assets/progress_plex-ssrf.svg) |
 | Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
 | Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![verified](assets/progress_tenable-4029330.svg) |
-| Sep 16 |  | Tenable |  | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
+| Sep 16 | Malicious Upload | Tenable |  | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
 | Sep 17 | DoS | sliver |  | github GHSA-2p9c-ffmm-9248 , VulnCheck CVE requested b16a146a-c209-4ea5-92aa-2d351450ef83 | ![acknowledged](assets/progress_sliver-dos.svg) |
+| Sep 27 | DoS (crash loop) | Mythic (its-a-feature) | [6477dad8](https://github.com/its-a-feature/Mythic/commit/6477dad87e3451af59b069909e68ea1abdf844d9) | author DM | ![fixed](assets/progress_mythic-dos.svg) |
 <!-- progress:end -->
 
 ---
