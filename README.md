@@ -65,7 +65,6 @@ campaigns against whoever ships them.
 | Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
 | Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![verified](assets/progress_tenable-4029330.svg) |
 | Sep 16 | Malicious Upload | Tenable |  | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
-| Sep 17 | DoS | sliver |  | github GHSA-2p9c-ffmm-9248 , VulnCheck CVE requested b16a146a-c209-4ea5-92aa-2d351450ef83 | ![acknowledged](assets/progress_sliver-dos.svg) |
 | Sep 27 | DoS (crash loop) | Mythic (its-a-feature) | [6477dad8](https://github.com/its-a-feature/Mythic/commit/6477dad87e3451af59b069909e68ea1abdf844d9) | author DM | ![fixed](assets/progress_mythic-dos.svg) |
 <!-- progress:end -->
 
@@ -91,7 +90,7 @@ more in the oven as disclosures clear.
 | NOCVE-2009 | HP Deskjet 6840 firmware XF1M131A reflected XSS |
 | NOCVE-2010 | CiviCRM 3.1 < Beta 5 - Multiple Cross-Site Scripting Vulnerabilities |
 | NOCVE-2010 | dotProject 2.1.3 XSS / Improper Permissions |
-| NOCVE-2017 June, 01 | Torch router authentication bypass, clear text credentials, and more. CERT VU#118167. |
+| NOCVE-2017 June, 01 | [Torch router authentication bypass, clear text credentials, and more. CERT VU#118167.](https://github.com/h00die/torch) |
 | [CVE-2017-6526](https://nvd.nist.gov/vuln/detail/CVE-2017-6526) | dnaLIMS unauthenticated RCE|
 | [CVE-2017-6527](https://nvd.nist.gov/vuln/detail/CVE-2017-6527) | dnaLIMS directory traversal |
 | [CVE-2017-6528](https://nvd.nist.gov/vuln/detail/CVE-2017-6528) | dnaLIMS plaintext password storage |
@@ -106,6 +105,7 @@ more in the oven as disclosures clear.
 | [CVE-2024-48534](https://nvd.nist.gov/vuln/detail/CVE-2024-48534) | eSoft Planner reflected XSS |
 | [CVE-2024-48535](https://nvd.nist.gov/vuln/detail/CVE-2024-48535) | eSoft Planner stored XSS |
 | [CVE-2024-48536](https://nvd.nist.gov/vuln/detail/CVE-2024-48536) | eSoft Planner incorrect access control |
+| [CVE-2026-102507](https://nvd.nist.gov/vuln/detail/CVE-2026-102507) | [Sliver DoS](https://github.com/h00die/sliver_1.7.7_DoS) |
 
 ## :boom: Exploit-DB
 
