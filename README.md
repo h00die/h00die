@@ -56,7 +56,6 @@ campaigns against whoever ships them.
 | Submitted | Type | Vendor | CVE | Channel | Status |
 | -------- | -------- | -------- | --------- | ----------- | -------- |
 | Aug 26 | file read | Tenable |  | HackerOne 3971365 | ![verified](assets/progress_tenable-3971365.svg) |
-| Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![fixed](assets/progress_rapid7-rce.svg) |
 | Aug 29 | bypass | Greenbone Security | https://github.com/greenbone/gsad/commit/06e9e46e91977efed38e8458a7f282dd42c2caf7 | direct email | ![fixed](assets/progress_greenbone-bypass.svg) |
 | Aug 29 | SQLi | Greenbone Security | https://github.com/greenbone/gvmd/commit/4ddc78e0c563149f8275eee07d1c8d327f90d9cb | direct email | ![fixed](assets/progress_greenbone-sqli.svg) |
 | Aug 29 | Confi Change | Greenbone Security | https://github.com/greenbone/gvmd/commit/2929e8fc750cfb4ef2ef005d5b8827895e77d3ad | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
@@ -74,13 +73,13 @@ campaigns against whoever ships them.
 
 ## :boom: CVE playground
 
+Exploits for CVEs I hadn't found elsewhere and developed.
+
 | CVE | PoC |
 | ----- | ----- |
 | CVE-2026-19626 | [POC-CVE-2026-19626](https://github.com/h00die/POC-CVE-2026-19626) |
 | CVE-2026-19679 | [POC-CVE-2026-19679](https://github.com/h00die/POC-CVE-2026-19679) |
 | CVE-2026-19681 | [POC-CVE-2026-19681](https://github.com/h00die/POC-CVE-2026-19681) |
-
-more in the oven as disclosures clear.
 
 ## :boom: CVEs Discovered
 
@@ -107,7 +106,9 @@ more in the oven as disclosures clear.
 | [CVE-2024-48534](https://nvd.nist.gov/vuln/detail/CVE-2024-48534) | eSoft Planner reflected XSS |
 | [CVE-2024-48535](https://nvd.nist.gov/vuln/detail/CVE-2024-48535) | eSoft Planner stored XSS |
 | [CVE-2024-48536](https://nvd.nist.gov/vuln/detail/CVE-2024-48536) | eSoft Planner incorrect access control |
+| [CVE-2026-87690](https://nvd.nist.gov/vuln/detail/CVE-2026-87690) | [Metasploit Dir Traversal to RCE](https://github.com/h00die/CVE-2026-87690-POC) |
 | [CVE-2026-102507](https://nvd.nist.gov/vuln/detail/CVE-2026-102507) | [Sliver DoS](https://github.com/h00die/sliver_1.7.7_DoS) |
+
 
 ## :boom: Exploit-DB
 
