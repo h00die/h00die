@@ -57,14 +57,14 @@ campaigns against whoever ships them.
 | -------- | -------- | -------- | --------- | ----------- | -------- |
 | Aug 26 | file read | Tenable |  | HackerOne 3971365 | ![verified](assets/progress_tenable-3971365.svg) |
 | Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![fixed](assets/progress_rapid7-rce.svg) |
-| Aug 29 | bypass | Greenbone Security |  | direct email | ![fixed](assets/progress_greenbone-bypass.svg) |
+| Aug 29 | bypass | Greenbone Security | https://github.com/greenbone/gsad/commit/06e9e46e91977efed38e8458a7f282dd42c2caf7 | direct email | ![fixed](assets/progress_greenbone-bypass.svg) |
 | Aug 29 | SQLi | Greenbone Security |  | direct email | ![fixed](assets/progress_greenbone-sqli.svg) |
 | Aug 29 | Confi Change | Greenbone Security |  | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
 | Sep 5 | DoS | Plex |  | direct email | ![verified](assets/progress_plex-dos.svg) |
 | Sep 5 | SSRF | Plex |  | direct email | ![fixed](assets/progress_plex-ssrf.svg) |
 | Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
 | Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![verified](assets/progress_tenable-4029330.svg) |
-| Sep 16 | Malicious Upload | Tenable |  | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
+| Sep 16 | Malicious Upload | Tenable | (likely) CVE-2026-103947 | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
 | Sep 27 | DoS (crash loop) | Mythic (its-a-feature) | [6477dad8](https://github.com/its-a-feature/Mythic/commit/6477dad87e3451af59b069909e68ea1abdf844d9) | author DM | ![fixed](assets/progress_mythic-dos.svg) |
 | Oct 18 | Auth RCE | AdaptixC2 | [GHSA-w4xp-8xrp-7686](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-w4xp-8xrp-7686) | Github Security Advisory |  |
 | Oct 18 | Auth File Write (Limited RCE by host OS family) | AdaptixC2 | [GHSA-hg7v-748c-2xmc](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-hg7v-748c-2xmc) | Github Security Advisory |  |
