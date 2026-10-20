@@ -58,8 +58,8 @@ campaigns against whoever ships them.
 | Aug 26 | file read | Tenable |  | HackerOne 3971365 | ![verified](assets/progress_tenable-3971365.svg) |
 | Aug 27 | file write to RCE | Rapid7 | CVE-2026-87690 | support ticket #142316 | ![fixed](assets/progress_rapid7-rce.svg) |
 | Aug 29 | bypass | Greenbone Security | https://github.com/greenbone/gsad/commit/06e9e46e91977efed38e8458a7f282dd42c2caf7 | direct email | ![fixed](assets/progress_greenbone-bypass.svg) |
-| Aug 29 | SQLi | Greenbone Security |  | direct email | ![fixed](assets/progress_greenbone-sqli.svg) |
-| Aug 29 | Confi Change | Greenbone Security |  | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
+| Aug 29 | SQLi | Greenbone Security | https://github.com/greenbone/gvmd/commit/4ddc78e0c563149f8275eee07d1c8d327f90d9cb | direct email | ![fixed](assets/progress_greenbone-sqli.svg) |
+| Aug 29 | Confi Change | Greenbone Security | https://github.com/greenbone/gvmd/commit/2929e8fc750cfb4ef2ef005d5b8827895e77d3ad | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
 | Sep 5 | DoS | Plex |  | direct email | ![verified](assets/progress_plex-dos.svg) |
 | Sep 5 | SSRF | Plex |  | direct email | ![fixed](assets/progress_plex-ssrf.svg) |
 | Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
