@@ -7,10 +7,10 @@
 <text x="390" y="62" fill="#8b949e" font-size="12" text-anchor="end">89%</text>
 <text x="20" y="90" fill="#e6edf3" font-size="12">JavaScript</text>
 <rect x="130" y="81" width="200" height="9" rx="4" fill="#21262d" />
-<rect x="130" y="81" width="12" height="9" rx="4" fill="#f1e05a" />
-<text x="390" y="90" fill="#8b949e" font-size="12" text-anchor="end">6%</text>
+<rect x="130" y="81" width="10" height="9" rx="4" fill="#f1e05a" />
+<text x="390" y="90" fill="#8b949e" font-size="12" text-anchor="end">5%</text>
 <text x="20" y="118" fill="#e6edf3" font-size="12">Shell</text>
 <rect x="130" y="109" width="200" height="9" rx="4" fill="#21262d" />
-<rect x="130" y="109" width="12" height="9" rx="4" fill="#89e051" />
-<text x="390" y="118" fill="#8b949e" font-size="12" text-anchor="end">6%</text>
+<rect x="130" y="109" width="10" height="9" rx="4" fill="#89e051" />
+<text x="390" y="118" fill="#8b949e" font-size="12" text-anchor="end">5%</text>
 </svg>
