@@ -108,6 +108,7 @@ Exploits for CVEs I hadn't found elsewhere and developed.
 | [CVE-2024-48536](https://nvd.nist.gov/vuln/detail/CVE-2024-48536) | eSoft Planner incorrect access control |
 | [CVE-2026-87690](https://nvd.nist.gov/vuln/detail/CVE-2026-87690) | [Metasploit Dir Traversal to RCE](https://github.com/h00die/CVE-2026-87690-POC) |
 | [CVE-2026-102507](https://nvd.nist.gov/vuln/detail/CVE-2026-102507) | [Sliver DoS](https://github.com/h00die/sliver_1.7.7_DoS) |
+| [CVE-2026-119764](https://nvd.nist.gov/vuln/detail/CVE-2026-119764) | [MythicXSS](https://github.com/h00die/mythic_xss/tree/main) |
 
 
 ## :boom: Exploit-DB
