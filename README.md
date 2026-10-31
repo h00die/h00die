@@ -61,9 +61,9 @@ campaigns against whoever ships them.
 | Aug 29 | Confi Change | Greenbone Security | [2929e8fc](https://github.com/greenbone/gvmd/commit/2929e8fc750cfb4ef2ef005d5b8827895e77d3ad) | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
 | Sep 5 | DoS | Plex |  | direct email | ![verified](assets/progress_plex-dos.svg) |
 | Sep 5 | SSRF | Plex |  | direct email | ![fixed](assets/progress_plex-ssrf.svg) |
-| Sep 5 | Auth Bypass | Plex |  | direct email | ![acknowledged](assets/progress_plex-authbypass.svg) |
-| Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![verified](assets/progress_tenable-4029330.svg) |
-| Sep 16 | Malicious Upload | Tenable | (likely) CVE-2026-103947 | HackerOne 4034759 | ![acknowledged](assets/progress_tenable-4034759.svg) |
+| Sep 5 | Auth Bypass | Plex |  | direct email | ![fixed](assets/progress_plex-authbypass.svg) |
+| Sep 14 | HTMLi | Tenable |  | HackerOne 4029330 | ![fixed](assets/progress_tenable-4029330.svg) |
+| Sep 16 | Malicious Upload | Tenable | (likely) CVE-2026-103947 | ~~HackerOne 4034759~~ Duplicate | ![acknowledged](assets/progress_tenable-4034759.svg) |
 | Sep 27 | DoS (crash loop) | Mythic (its-a-feature) | [6477dad8](https://github.com/its-a-feature/Mythic/commit/6477dad87e3451af59b069909e68ea1abdf844d9) | author DM | ![fixed](assets/progress_mythic-dos.svg) |
 | Oct 18 | Auth RCE | AdaptixC2 | [GHSA-w4xp-8xrp-7686](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-w4xp-8xrp-7686) | Github Security Advisory | ![submitted](assets/progress_adaptix-rce.svg) |
 | Oct 18 | Auth File Write (Limited RCE by host OS family) | AdaptixC2 | [GHSA-hg7v-748c-2xmc](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-hg7v-748c-2xmc) | Github Security Advisory | ![submitted](assets/progress_adaptix-filewrite.svg) |
@@ -108,7 +108,7 @@ Exploits for CVEs I hadn't found elsewhere and developed.
 | [CVE-2024-48536](https://nvd.nist.gov/vuln/detail/CVE-2024-48536) | eSoft Planner incorrect access control |
 | [CVE-2026-87690](https://nvd.nist.gov/vuln/detail/CVE-2026-87690) | [Metasploit Dir Traversal to RCE](https://github.com/h00die/CVE-2026-87690-POC) |
 | [CVE-2026-102507](https://nvd.nist.gov/vuln/detail/CVE-2026-102507) | [Sliver DoS](https://github.com/h00die/sliver_1.7.7_DoS) |
-| [CVE-2026-119764](https://nvd.nist.gov/vuln/detail/CVE-2026-119764) | [MythicXSS](https://github.com/h00die/mythic_xss/tree/main) |
+| [CVE-2026-119764](https://nvd.nist.gov/vuln/detail/CVE-2026-119764) | [Mythic XSS](https://github.com/h00die/mythic_xss/tree/main) |
 
 
 ## :boom: Exploit-DB
