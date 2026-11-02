@@ -55,7 +55,6 @@ campaigns against whoever ships them.
 
 | Submitted | Type | Vendor | CVE | Channel | Status |
 | -------- | -------- | -------- | --------- | ----------- | -------- |
-| Aug 26 | file read | Tenable |  | HackerOne 3971365 | ![verified](assets/progress_tenable-3971365.svg) |
 | Aug 29 | bypass | Greenbone Security | [06e9e46e](https://github.com/greenbone/gsad/commit/06e9e46e91977efed38e8458a7f282dd42c2caf7) | direct email | ![fixed](assets/progress_greenbone-bypass.svg) |
 | Aug 29 | SQLi | Greenbone Security | [4ddc78e0](https://github.com/greenbone/gvmd/commit/4ddc78e0c563149f8275eee07d1c8d327f90d9cb) | direct email | ![fixed](assets/progress_greenbone-sqli.svg) |
 | Aug 29 | Confi Change | Greenbone Security | [2929e8fc](https://github.com/greenbone/gvmd/commit/2929e8fc750cfb4ef2ef005d5b8827895e77d3ad) | direct email | ![fixed](assets/progress_greenbone-confi.svg) |
@@ -109,6 +108,7 @@ Exploits for CVEs I hadn't found elsewhere and developed.
 | [CVE-2026-87690](https://nvd.nist.gov/vuln/detail/CVE-2026-87690) | [Metasploit Dir Traversal to RCE](https://github.com/h00die/CVE-2026-87690-POC) |
 | [CVE-2026-102507](https://nvd.nist.gov/vuln/detail/CVE-2026-102507) | [Sliver DoS](https://github.com/h00die/sliver_1.7.7_DoS) |
 | [CVE-2026-119764](https://nvd.nist.gov/vuln/detail/CVE-2026-119764) | [Mythic XSS](https://github.com/h00die/mythic_xss/tree/main) |
+| [CVE-2026-119317](https://nvd.nist.gov/vuln/detail/CVE-2026-119317) | HackerOne [3971365](https://hackerone.com/reports/3971365) [tns-2026-33](https://www.tenable.com/security/tns-2026-33) |
 
 
 ## :boom: Exploit-DB
