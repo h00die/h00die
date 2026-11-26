@@ -66,6 +66,7 @@ campaigns against whoever ships them.
 | Sep 27 | DoS (crash loop) | Mythic (its-a-feature) | [6477dad8](https://github.com/its-a-feature/Mythic/commit/6477dad87e3451af59b069909e68ea1abdf844d9) | author DM | ![fixed](assets/progress_mythic-dos.svg) |
 | Oct 18 | Auth RCE | AdaptixC2 | [GHSA-w4xp-8xrp-7686](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-w4xp-8xrp-7686) | Github Security Advisory | ![submitted](assets/progress_adaptix-rce.svg) |
 | Oct 18 | Auth File Write (Limited RCE by host OS family) | AdaptixC2 | [GHSA-hg7v-748c-2xmc](https://github.com/Adaptix-Framework/AdaptixC2/security/advisories/GHSA-hg7v-748c-2xmc) | Github Security Advisory | ![submitted](assets/progress_adaptix-filewrite.svg) |
+| Nov 26 | Auth root RCE | Foscam Cameras | | direct email | ![submitted](assets/progress_adaptix-filewrite.svg) |
 <!-- progress:end -->
 
 ---
